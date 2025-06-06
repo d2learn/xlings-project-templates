@@ -37,8 +37,8 @@ xlings new --template cpp23-cmake-helloworld
 
 ```bash
 mkdir build && cd build
-cmake ..
-make
+cmake -G Ninja ..
+ninja -v
 ./helloworld
 ```
 
