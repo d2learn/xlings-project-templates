@@ -1,0 +1,8 @@
+-- https://github.com/d2learn/xlings
+
+xname = "cpp23-xmake-helloworld"
+
+xim = {
+    --xmake = "3.0.0",
+    gcc = "15",
+}
