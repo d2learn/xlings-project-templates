@@ -5,4 +5,5 @@ xname = "cpp23-cmake-helloworld"
 xim = {
     cmake = "4.0.2",
     ninja = "1.12.1",
+    gcc = "15",
 }
