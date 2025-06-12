@@ -7,3 +7,10 @@ xim = {
     ninja = "1.12.1",
     gcc = "15",
 }
+
+d2x = {
+    commands = {
+        build = "xmake build",
+        run = "xmake r",
+    }
+}
