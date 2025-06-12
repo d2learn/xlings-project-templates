@@ -36,6 +36,14 @@ xlings new --template cpp23-cmake-helloworld
 ## 基本使用
 
 ```bash
+d2x init
+d2x build
+d2x run
+```
+
+或
+
+```bash
 mkdir build && cd build
 cmake -G Ninja ..
 ninja -v

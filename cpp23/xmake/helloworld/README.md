@@ -38,6 +38,14 @@ xlings new --template cpp23-xmake-helloworld
 > 注: 需要xmake的开发版或(>=3.0.0) - [见详情](https://github.com/xmake-io/xmake/issues/6384)
 
 ```bash
+d2x build
+d2x run
+```
+
+或
+
+```bash
+xmake build
 xmake r
 ```
 

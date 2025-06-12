@@ -7,3 +7,12 @@ xim = {
     ninja = "1.12.1",
     gcc = "15",
 }
+
+d2x = {
+    commands = {
+        init = "cmake -S . -B build -G Ninja",
+        build = "cmake --build build",
+        run = "./build/helloworld",
+        clean = "rm -r build",
+    }
+}
